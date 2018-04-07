@@ -1,0 +1,207 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+img {
+	max-width: 100%;
+}
+.header {
+		background-color: #3a7dfd;
+		background-image: -webkit-linear-gradient(57deg, #3a7dfd 0%, #1157db 100%);
+		background-image: -o-linear-gradient(57deg, #3a7dfd 0%, #1157db 100%);
+		background-image: linear-gradient(147deg, #3a7dfd 0%, #1157db 100%);
+		color: #fff;
+		padding-top: 59px;
+}
+.imac {
+	margin-top: 60px;
+
+}
+.header-pretitle {
+	margin-top: 102px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.header-title {
+	margin-top: 21px;
+	font-weight: 700;
+	font-size: 48px;
+}
+.header-subtitle {
+	margin-top: 20px;
+	font-size: 18px;
+}
+.header-button {
+	display: block;
+	border-radius: 50px;
+	background: #fff;
+	color: #072b6f;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 17px 55px;
+	margin-top: 33px;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.7s ease;
+	text-decoration: none;
+}
+.header-button:hover {
+		box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+}
+header small {
+	font-size: 12px;
+	display: block;
+	margin-top: 9px;
+	text-align: center;
+}
+.header-button-block {
+	max-width: 210px;
+}
+/*секция портфолио*/
+.portfolio {
+	background: #ddd;
+	padding-top: 44px;
+padding-bottom: 71px;
+}
+.portfolio-block {
+	background: #fff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+}
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
+}
+.portfolio-title {
+	text-transform: uppercase;
+	color: #072b6f;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.portfolio-subtitle {
+	margin-top: 10px;
+	color: #7bb9ff;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.portfolio-col-1 {
+	padding-left: 50px;
+
+}
+.portfolio-col-2 {
+		padding-right: 50px;
+}
+.portfolio-block h3 {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.portfolio-text {
+	color: #8f8f8f;
+	font-size: 14px;
+	font-weight: 400;
+}
+.portfolio-block a {
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+/*Оформление подвала*/
+.footer {
+	background: #3a7dfd;
+	color: #deedfe;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.footer-author {
+	color: #fefefe;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.footer-text {
+	font-size: 18px;
+	font-weight: 400;
+}
+.social-block {
+	text-align: center;
+}
+.social-block a {
+	display: inline-block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.footer-cta-block {
+	text-align: center;
+}
+.footer-cta {
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 13px;
+}
+.footer-btn {
+	display: inline-block;
+	padding: 12px 40px;
+	border-radius: 50px;
+	border: 1px solid #fff;
+	color: #deedfe;
+	font-size: 18px;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.7s ease;
+	text-decoration: none;
+
+}
+.footer-btn:hover {
+	background: #fff;
+	color: #3a7dfd;
+}
+
+@media (max-width: 1200px) {
+	.header-pretitle {
+		margin-top: 60px;
+	}
+}
+@media (max-width: 992px) {
+	.imac {
+		display: none;
+	}
+		.header-pretitle {
+		margin-top: 10px;
+	}
+	.footer-author {
+		font-size: 18px;
+	}
+	.footer-text {
+		font-size: 14px;
+	}
+	.social-block a {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+		.social-block img {
+		width: 25px;
+	}
+	.footer-btn {
+		font-size: 14px;
+		padding: 8px 30px;
+	}
+}
+@media (max-width: 768px) {
+	.portfolio-col-1 {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 40px;
+	}
+		.portfolio-col-2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer-author, .footer-text {
+		text-align: center;
+	}
+}
